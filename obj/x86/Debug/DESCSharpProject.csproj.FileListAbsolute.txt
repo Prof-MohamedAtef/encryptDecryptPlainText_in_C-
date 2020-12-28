@@ -1,0 +1,4 @@
+c:\users\prof-mohamed atef\documents\visual studio 2010\Projects\DESCSharpProject\DESCSharpProject\bin\Debug\DESCSharpProject.exe
+c:\users\prof-mohamed atef\documents\visual studio 2010\Projects\DESCSharpProject\DESCSharpProject\bin\Debug\DESCSharpProject.pdb
+c:\users\prof-mohamed atef\documents\visual studio 2010\Projects\DESCSharpProject\DESCSharpProject\obj\x86\Debug\DESCSharpProject.exe
+c:\users\prof-mohamed atef\documents\visual studio 2010\Projects\DESCSharpProject\DESCSharpProject\obj\x86\Debug\DESCSharpProject.pdb
