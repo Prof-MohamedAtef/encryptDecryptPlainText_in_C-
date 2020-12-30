@@ -110,7 +110,12 @@ namespace DESCSharpProject
             Console.WriteLine("Which Process would you like to implement, Encryption or Decryption ?\nEnter 1 for Encryption\nEnter 2 for Decryption");
             string processChoice = Helper.setProcessType(Console.ReadLine());
             Console.WriteLine("You have selected:" + processChoice);
+            if(processChoice.Equals(Helper.Decryption))
+            {
+                Console.WriteLine("You cannot start decryption with no Plain Text");
+            }
             Console.ReadLine();
+            
             Console.WriteLine("Enter your Plain Text Message");
             string userPlainText = Console.ReadLine();
             Console.WriteLine("Plain Text Message \n(" + userPlainText + ")\nis being Encrypted ...");
@@ -125,6 +130,9 @@ namespace DESCSharpProject
             {
                 Console.WriteLine(Decryptor.Decrypt(cipherText, desProvider));
                 Console.ReadLine();
+                Console.WriteLine("Good Bey ...");
+                Console.ReadLine();
+                Environment.Exit(0);
             }
             else
             {
